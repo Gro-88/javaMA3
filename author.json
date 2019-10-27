@@ -1,0 +1,23 @@
+{
+        "video": [{
+               "id": 12312412312,
+               "name": "Ecuaciones Diferenciales",
+               "url": "/video/math/edo/12312412312",
+               "author": {
+                      "data": [{
+                            "name_author": "Alejandro Morales",
+                            "url": "/author/alejandro-morales",
+                            "type": "master"
+                      }]
+               }
+        }]
+    console.log(id);
+console.log(name);
+console.log(url);
+console.log(author);
+
+console.log(data.name-author);
+console.log(data.url);
+console.log(data.type);
+}
+

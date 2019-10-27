@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - MA03 - Question 1</title>
+</head>
+<body>
+    
+<script src="script.js"></script>
+
+
+<form  id="email_form" action="index.html" method="get" onsubmit="javascript:return validate('email_form', 'email,number, lname, fname');">
+    
+    <label  id="fname" for="firstname">First name</label>
+    <input type="text" name="firstname">
+    
+     <label id="lname" for="lastname">Last name</label>
+     <input type="text" name="lastname"><br>
+    
+    <label id="mail" for="text">E-mail</label>
+    <input type="text" id="email" name="email">
+    
+    <label id="number" for="number">Phonenumber</label>
+    <input type="phone" name="number"><br>
+    
+    <input type="submit" value="Submit">
+
+    
+    </form>
+
+
+
+</body>
+</html>
